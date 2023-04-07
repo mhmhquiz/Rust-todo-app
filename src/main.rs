@@ -5,7 +5,7 @@ use serde::{Deserialize, Serialize};
 use std::sync::Mutex;
 
 fn create_db_pool() -> Pool {
-    let url = "mysql://root:kouki0911@localhost/todo";
+    let url = "mysql://root:pass@localhost/DB";
     Pool::new(url).expect("Failed to create database pool")
 }
 
